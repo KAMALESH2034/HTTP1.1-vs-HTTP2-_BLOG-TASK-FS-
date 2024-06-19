@@ -1,0 +1,103 @@
+                                          HTTP1.1 vs HTTP2
+
+What is HTTP?
+    The Hypertext Transfer Protocol is a base for any data transfer in the web world. It is an application layer 
+    protocol used to transmit docs like HTML. This Protocol is used by world wide web (www). HTTP development was 
+    started by Tim Berners-Lee at CERN in 1989. In simple words when Server Transmits any data to client’s browser, 
+    this transferring of data occurs in some specific format. This format of transferring is called HTTP. HTTP browser
+    can understand HTML format.
+
+
+HTTP - Hyper Text Transfer Protocol
+PROTOCOL - A set RULES
+HYPER- a special txt.
+TEXT TRANSFER PROTOCOL - transferring a text with certain rules.
+    We got many updates in HTTP. The first version is named 0.9 in 1991.
+    Later in 1997 HTTP1.1 was introduced and used as a standard version for two decades. After in 2015 HTTP2 became 
+    standardized.
+
+HTTP1.1
+	It gave persistent connection, cache control mechanisms, chunked transfer encoding & etc.., It is low in 
+    latency and good efficiency of web communications.
+
+Http1.1
+
+     preformed well in simple tasks but struggles with newly developed modern web applications which is linked to 
+     numerous resources that is to be loaded quickly. It lacks of multiplexing and other performance, which makes 
+     it less efficient for modern complex web pages of that time during 2010 to 2015.
+
+Key features of HTTP1.1:
+1.	Persistent Connections: HTTP1.1 introduced persistent connections, allowing multiple request and responses 
+    to be transferred over a single Transmission Control Protocol connection (TCP - i.e. a common protocol used to 
+    deliver data in digital network communications). So, this reduces the creations of new connections.
+
+2.	Chunked Transfer Encoding: This method allows data to be sent in chunks, creating it possible to start sending 
+    a response before transmitting the whole size of data. It improves the responsiveness of web applications.
+
+3.	Pipelining: This feature allows a client to send multiple requests without waiting for each response. But has 
+    its limitations.
+
+HTTP2:
+
+        It is the recent upgrade to on HTTP protocol. This was developed to overcome the limitations of HTTP1.1. It has 
+    improved performance, efficiency, and security to survive around the new technologies.
+    Http2 has various new features such as multiplexing, server push, header compression, etc. which makes browsing 
+    faster and more efficient.
+    Http2 has less latency, improved page load times, and optimizing resource usage.
+
+
+Key features of HTTP1.1:
+1.	Binary Protocol: This are read by machine not by humans.
+    http1.1 is a text-based protocol but http2 is a binary protocol. This allows more efficient processing of data.
+
+2.	Multiplexing: Multiple requests and responses can be transmitted concurrently over a single connection,
+    replacing an issue in http1.1 knowns as head-of-line blocking.
+3.	Header Compression: Http2 uses HPACK compression to reduce the size of headers. This is helpful in websites 
+    with large and repetitive headers, as it reduces the amount of data transmitted over the network.
+
+4.	Server Push:  It is a feature that allows the server to send resources to client proactively, without waiting 
+    for request from the client.
+
+HTTP1.1 vs HTTP2
+
+1.	Connections:
+    HTTP1.1 use multiple connections to handle multiple requests, leading to inefficiency.
+    Whereas HTTP2 uses a single connection for multiple requests &responses using multiplexing, which improves 
+    performance and reduces latency.
+
+2.	Data Format:
+    HTTP1.1 is a text-based protocol, which is less efficient and slower to parse (a resolver).
+    Whereas HTTP2 uses binary protocol, which allows for more efficient data processing and reduces errors.
+
+3.	Performance:
+    HTTP1.1 has an issue from head - of – line blocking and inefficient use of network resources.
+    HTTP2 overcomes the head of line blocking, improves network utilization, and offers better performance through
+    features like multiplexing and server push.
+
+
+4.	Security:
+    In HTTP1.1 security is not inherent but can be added via HTTPS
+    (HTTPS – secured connection).
+    HTTP2 is designed to work seamlessly with HTTPS, which promotes more secure connections by default.
+
+Why HTTP2!
+
+1.	Faster Load Times: 
+    Because of multiplexing, header compression, and server push all contribute to faster page load times, improving 
+    the user experience.
+
+2.	Reduced Latency: 
+    More efficient use of network resources and reduced overhead lead to less latency.
+
+3.	Better Resource usage: 
+    Single connections for multiple requests reduce resource consumption and improve scalability.
+
+4.	Improved Security: 
+    Stronger integration with Https ensures more secure data transfers.
+
+Conclusion
+    Http1.1 is used as standard version and served the web for two decades, but Http2 offers more improvements 
+    and overcomes the limitations faced on Http1.1 which is needed in the modern web applications. By reducing 
+    latency, increasing data transfer efficiency, enhancing security, Http2 provides strong base for the 
+    new web applications. As the technology is evolving, adaptation of the advancement is becoming necessary 
+    to survive in web development and network management.	
