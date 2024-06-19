@@ -100,4 +100,4 @@ Conclusion
     and overcomes the limitations faced on Http1.1 which is needed in the modern web applications. By reducing 
     latency, increasing data transfer efficiency, enhancing security, Http2 provides strong base for the 
     new web applications. As the technology is evolving, adaptation of the advancement is becoming necessary 
-    to survive in web development and network management.	
+    to survive in web development and network management.So HTTP2 is preferred with mordern applications.
